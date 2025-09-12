@@ -6,18 +6,16 @@
 /*   By: cshimirw <cshimirw@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/10 13:58:30 by cshimirw          #+#    #+#             */
-/*   Updated: 2025/09/11 10:16:08 by cshimirw         ###   ########.fr       */
+/*   Updated: 2025/09/12 09:08:46 by cshimirw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
-    write (1, &c, 1);
+	write (1, &c, 1);
 }
-
-
 /*int main(void)
 {
     ft_putchar ('a');
